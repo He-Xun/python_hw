@@ -11,8 +11,6 @@ def map1(func, iterable):
     else:
         return (func(value) for index, value in enumerate(iterable))
 
-
-
 ret = list(map1(fn, [1, 2, 3, 4, 5, 6, 7, 8, 9]))
 print(ret)
 
